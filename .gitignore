@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+venv/
+env/
+.Python
+
+# pytest cache
+.cache/
+
+# PHP
+/vendor/
+composer.lock
+composer.phar
+
+# Laravel (opcional si usas Laravel)
+.env
+.phpunit.result.cache
+/storage/*.key
+/storage/*.log
+/storage/framework/*
+!/storage/framework/.gitignore
+/bootstrap/cache/*
+!/bootstrap/cache/.gitignore
+
+# Node.js / JavaScript
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.DS_Store
+
+# IDEs y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Otros
+*.log
+*.sqlite
+*.bak
+*.tmp
+*.test.*
+coverage/
