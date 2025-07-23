@@ -50,5 +50,4 @@ package-lock.json
 *.sqlite
 *.bak
 *.tmp
-*.test.*
 coverage/
